@@ -1,12 +1,10 @@
 # Van-der-Pol-Equation-via-PINNs
 This repository implements a Physics-Informed Neural Network (PINN) to solve and simulate the non-linear Van der Pol oscillator equation. By embedding the governing differential equations directly into the neural network's loss function, the model accurately captures the system's dynamic behavior and stable limit cycles.
------------------------------------
-# Risoluzione dell'equazione di Van der Pol tramite PINN
 
 Questo repository contiene il codice e la relazione per il progetto del corso di **Numerical Methods for Scientific Computing** (Università degli Studi di Catania, LM-18), anno accademico 2025-2026.
 
 Autore: **Gabriela Riscica**
-
+-------------
 ## Descrizione del Progetto
 
 Il progetto affronta la risoluzione dell'equazione differenziale non lineare di **Van der Pol** in regime di forte non linearità (comportamento *stiff*) utilizzando le **Physics-Informed Neural Networks (PINN)**. I modelli PINN standard faticano a convergere su problemi *stiff* a causa del mal-condizionamento dei residui fisici, dello *spectral bias* e della violazione del principio di causalità su lunghi orizzonti temporali. 
