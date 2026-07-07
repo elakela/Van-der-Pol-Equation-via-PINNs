@@ -19,6 +19,7 @@ Per superare queste limitazioni e garantire un'elevata accuratezza, l'impianto a
 
 - `vdp_pinn.py`: Script Python contenente l'implementazione del modello PINN (creazione della rete, addestramento ibrido Adam + L-BFGS, time-marching adattativo e generazione dei grafici).
 - `Relazione.pdf`: Relazione completa del progetto che documenta dettagliatamente l'approccio teorico, le architetture, la metodologia proposta e l'analisi dei risultati ottenuti.
+- 'Relation.pdf': Versione inglese della relazione
 
 ## Requisiti
 
